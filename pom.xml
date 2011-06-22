@@ -7,16 +7,16 @@
   </parent>
   <groupId>org.onebusaway</groupId>
   <artifactId>onebusaway-siri-apis</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>onebusaway-siri-apis</name>
   <description>Parent POM module for onebusaway siri api modules</description>
 
   <scm>
-    <connection>scm:svn:http://onebusaway.googlecode.com/svn/siri/onebusaway-siri-apis/tags/onebusaway-siri-apis-1.0.0</connection>
-    <developerConnection>scm:svn:https://onebusaway.googlecode.com/svn/siri/onebusaway-siri-apis/tags/onebusaway-siri-apis-1.0.0</developerConnection>
-    <url>http://code.google.com/p/onebusaway/source/browse/#svn/siri/onebusaway-siri-apis/tags/onebusaway-siri-apis-1.0.0</url>
+    <connection>scm:svn:http://onebusaway.googlecode.com/svn/siri/onebusaway-siri-apis/trunk</connection>
+    <developerConnection>scm:svn:https://onebusaway.googlecode.com/svn/siri/onebusaway-siri-apis/trunk</developerConnection>
+    <url>http://code.google.com/p/onebusaway/source/browse/#svn/siri/onebusaway-siri-apis/trunk</url>
   </scm>
 
   <distributionManagement>
