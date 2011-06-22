@@ -13,6 +13,14 @@
   <name>onebusaway-siri-apis</name>
   <description>Parent POM module for onebusaway siri api modules</description>
 
+  <properties>
+    <!-- These modules aren't really meant for widespread distribution, so we deploy to OneBusAway Nexus by default -->
+    <distribution_id>nexus.onebusaway.org-releases</distribution_id>
+    <distribution_url>http://nexus.onebusaway.org/content/repositories/releases/</distribution_url>
+    <snapshot_distribution_id>nexus.onebusaway.org-snapshots</snapshot_distribution_id>
+    <snapshot_distribution_url>http://nexus.onebusaway.org/content/repositories/snapshots/</snapshot_distribution_url>
+  </properties>
+
   <scm>
     <connection>scm:svn:http://onebusaway.googlecode.com/svn/siri/onebusaway-siri-apis/trunk</connection>
     <developerConnection>scm:svn:https://onebusaway.googlecode.com/svn/siri/onebusaway-siri-apis/trunk</developerConnection>
