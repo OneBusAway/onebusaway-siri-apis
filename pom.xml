@@ -4,15 +4,15 @@
   <parent>
     <artifactId>onebusaway</artifactId>
     <groupId>org.onebusaway</groupId>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
   </parent>
   <groupId>org.onebusaway</groupId>
   <artifactId>onebusaway-siri-apis</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>onebusaway-siri-apis</name>
-  <description>Parent POM module for onebusaway siri api modules/description>
+  <description>Parent POM module for onebusaway siri api modules</description>
 
   <scm>
     <connection>scm:svn:http://onebusaway.googlecode.com/svn/siri/onebusaway-siri-apis/trunk</connection>
@@ -27,5 +27,12 @@
       <url>${site_url}</url>
     </site>
   </distributionManagement>
+
+  <repositories>
+    <repository>
+      <id>public.onebusaway.org</id>
+      <url>http://nexus.onebusaway.org/content/groups/public/</url>
+    </repository>
+  </repositories>
 
 </project>
