@@ -3,29 +3,26 @@
   <parent>
     <artifactId>onebusaway</artifactId>
     <groupId>org.onebusaway</groupId>
-    <version>1.1.1</version>
+    <version>1.1.6</version>
   </parent>
-  <groupId>org.onebusaway</groupId>
   <artifactId>onebusaway-siri-apis</artifactId>
   <version>1.0.2-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>onebusaway-siri-apis</name>
-  <description>Parent POM module for onebusaway siri api modules</description>
-
-  <properties>
-    <!-- These modules aren't really meant for widespread distribution, so we deploy to OneBusAway Nexus by default -->
-    <distribution_id>nexus.onebusaway.org-releases</distribution_id>
-    <distribution_url>http://nexus.onebusaway.org/content/repositories/releases/</distribution_url>
-    <snapshot_distribution_id>nexus.onebusaway.org-snapshots</snapshot_distribution_id>
-    <snapshot_distribution_url>http://nexus.onebusaway.org/content/repositories/snapshots/</snapshot_distribution_url>
-  </properties>
+  <description>Parent POM module for all OneBusAway SIRI API modules.</description>
+  <url>https://github.com/OneBusAway/onebusaway-siri-apis/wiki/</url>
 
   <scm>
-    <connection>scm:svn:http://onebusaway.googlecode.com/svn/siri/onebusaway-siri-apis/trunk</connection>
-    <developerConnection>scm:svn:https://onebusaway.googlecode.com/svn/siri/onebusaway-siri-apis/trunk</developerConnection>
-    <url>http://code.google.com/p/onebusaway/source/browse/#svn/siri/onebusaway-siri-apis/trunk</url>
+    <connection>scm:git:http://github.com/OneBusAway/onebusaway-siri-apis.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/OneBusAway/onebusaway-siri-apis.git</developerConnection>
+    <url>http://github.com/OneBusAway/onebusaway-siri-apis</url>
   </scm>
+
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/OneBusAway/onebusaway-siri-apis/issues</url>
+  </issueManagement>
 
   <distributionManagement>
     <!-- Even though we specify this in the parent pom, we need to specify it here to have full control over the url -->
